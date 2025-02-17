@@ -1,19 +1,12 @@
 ```markdown
 # Aplicação de Gerenciamento Bancário
 
-Esta aplicação de gerenciamento bancário foi desenvolvida utilizando os principais conceitos do paradigma de Orientação a Objetos. A aplicação permite ao usuário informar seu nome, sobrenome e CPF, além de possibilitar a consulta de saldo, realização de depósitos e saques.
-
-## Funcionalidades
-
-- Informar nome, sobrenome e CPF
+- Informar nome, sobrenome e CPF   
 - Consultar saldo
 - Realizar depósitos
 - Realizar saques
 - Encerrar o uso da aplicação
 
-## Exemplo de Código
-
-```python
 class ContaBancaria:
     def __init__(self, nome, sobrenome, cpf):
         self.nome = nome
@@ -62,13 +55,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-## Como Executar
-
-1. Certifique-se de ter o Python instalado em seu sistema.
-2. Copie o código acima para um arquivo com a extensão `.py`.
-3. Execute o arquivo através do terminal ou prompt de comando com o comando `python nome_do_arquivo.py`.
-4. Siga as instruções exibidas na tela para utilizar a aplicação.
-
-```
