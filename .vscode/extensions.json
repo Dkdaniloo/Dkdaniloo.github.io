@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "oracle.oracle-java"
+        "oracle.oracle-java",
+        "formulahendry.code-runner"
     ]
 }
